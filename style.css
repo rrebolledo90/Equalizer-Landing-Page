@@ -1,0 +1,42 @@
+/* --------------------------Global Resets------------------------ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+p,
+figure {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* --------------------------Utility Component------------------------ */
+@font-face {
+  font-family: regular;
+  src: url(Fonts/IBMPlexSans-Regular.ttf);
+  format("truetype");
+}
+@font-face {
+  font-family: semibold;
+  src: url(Fonts/IBMPlexSans-Bold.ttf);
+  format("truetype");
+}
+:root {
+  --heading-font: semibold;
+  --body-font: regular;
+  --blue: #66e2dc;
+  --orange: #fa7453;
+  --yelow-orange: #ffb964;
+  --white: #fcfaf9;
+  --dark-purple: #191826;
+}
