@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
 }
-img,picture {
+img{
   max-width: 100%;
   display: block;
 }
@@ -59,7 +59,7 @@ body{
    Body2 = 16px    26px line*/
 
 
-/* ------------------------- Section One Content ------------------------------ */
+/* ------------------------- Section One Container ------------------------------ */
 
 .content-cnt{
   display: flex;
@@ -70,6 +70,7 @@ body{
   margin: 0 auto;
 }
 
+/* ------------------------- Section One Styles --------------------------- */
 .logo{
   margin-bottom: 2.75rem;
   margin-top: 2.5rem;
@@ -89,6 +90,77 @@ body{
 font-size: 1rem;
 font-family: var(--body-font);
 line-height: 1.625rem;
+}
+
+/* ------------------------- Section two Container ------------------------------ */
+
+.mid-cnt{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* ------------------------- Section two Sytles ------------------------------ */
+
+.box-one{
+  width: 100%;
+  border-radius: .625rem;
+  height: 25rem;
+  background-color: var(--dark-purple);
+}
+.app {
+  width: 13rem;
+  position: absolute;
+  bottom: 25%;
+  left: 20%;
+}
+.btm-background{
+  position: absolute;
+  width: 17.5rem;
+  left:10%;
+}
+
+/* ------------------------- Section three Container ------------------------------- */
+
+/* .btm-cnt{
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+} */
+
+.box-cnt{
+  width: 100%;
+  border-radius: .625rem;
+  background-color: var(--orange);
+  height: 25rem;
+  color: var(--white);
+}
+
+.apple-cnt, .andrioid-cnt{
+  display: flex;
+  gap:.625rem;
+  align-items: center;
+}
+
+
+
+
+
+/* ------------------------------ Section three Styles ------------------------------- */
+
+.btm-header{
+  font-size: 2rem;
+}
+.btm-content{
+  font-size: 1.125rem;
+}
+.amount{
+  font-size: 4.0625rem;
+}
+.amount-month{
+  font-size: 1.25rem;
 }
 
 
